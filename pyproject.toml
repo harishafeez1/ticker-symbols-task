@@ -1,0 +1,17 @@
+[project]
+name = "ticker-symbols-task"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Haris Hafeez",email = "haris.hafeez1@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas (>=2.3.0,<3.0.0) ; python_version >= \"3.9\" and python_version < \"4.0\""
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
